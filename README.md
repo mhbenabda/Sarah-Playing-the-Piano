@@ -4,7 +4,8 @@ Summary Hackahealth 2025 Zürich Team Sarah
 ## Challenge
 Sarah loves music. She grew up playing the piano. Over time she
 lost strength in her arms and now cannot enjoy the instrument she loves anymore.
-![Image](media/logo.jpg)
+
+![Image](media/logo.png)
 
 
 While she still has mobility in her wrists and fingers, lifting and holding her arms above the keyboard has become too strenuous.
@@ -27,3 +28,4 @@ piano again.
 
 ## BOM
 
+* 
