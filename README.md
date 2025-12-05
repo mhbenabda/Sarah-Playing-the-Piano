@@ -1,7 +1,7 @@
 # Sarah-Playing-the-Piano
 Summary Hackahealth 2025 Zürich Team Sarah
 
-## Challenge
+## Problem Statement
 Sarah loves music. She grew up playing the piano. Over time she
 lost strength in her arms and now cannot enjoy the instrument she loves anymore.
 
@@ -12,18 +12,27 @@ While she still has mobility in her wrists and fingers, lifting and holding her 
 Even though the initial purpose of the device is for playing the piano, it can easialy be used for other application that require manipulation of objects on a table.
 
 ## Requirements & User Needs
-As it usually is in rehabilitation engineering, the needs are very user spefic and the final solution is very custom one person's needs, size, preferences... usually leading to a very complex system to satisfy the detailed specifications, or a very simple solution that is just so easy that it works. Luckly, what we came up with in this case is the later. 
-That's we will describe in this section 
+As it usually is in rehabilitation engineering, the needs are very user spefic and the final solution is very custom one person's needs, size, preferences... usually leading to wether a very complex system to satisfy the detailed specifications, or a very simple solution that is just so easy that it works. Luckly, what we came up with in this case is the later. 
+
+In this section we describe Sarah's spefic case and the factors we had to consider:
+
+* First simplicity. This was a weekend project, which means limited materials we can aquire and limited development & testing time
+* Physiology. Our contestant has limited muscle strength, and gets tired when exerting too much effort. The force in her fingers is not enough to press the piano keys. She preferebly needs a combination of wrist, arm and shoulder motion to be able to play comfortably. This meant we had to provide the following degrees of freedom:
+    * Linear guiding of the two hands across the keyboard keys
+    * rotation or the wrist arount the horizontal axes (axes of the linear bar in the final solution photo) 
+    * rotation of wrist around the vertical axis to allow for smaller hand movement when selecting which key to play.
+
+But we also had to fix the following degrees of freedom:
+    * 
+
+* Form factor. We realized the importance of this point at the end of our first design when we started thinking about how Sarah could take it home, and teh current dimensions were too big to fit into the car. The final structure needs to be compact enough to be stored away when not used and easy to mount by the contestent parents.
+* Cost
+
+![image](media/buttom_support.png)
 
 ## Final Solution
 
 ![image](media/piano_hackahealth-2025-7977.jpg)
-
-## Development Process
-### Idea 1
-
-
-### Idea 2 (Final)
 
 
 ## BOM 
@@ -38,3 +47,6 @@ That's we will describe in this section
 * [Wrist support](https://www.decathlon.ch/en/p/level-5-right-or-left-wrist-support/_/R-p-364505?c=smoked%20black)
 
 The total cost should be less than 150 CHF for the materials.
+
+## The Team
+![image](media/team_hackahealth-2025_7829.jpg)
