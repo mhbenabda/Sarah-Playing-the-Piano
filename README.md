@@ -23,19 +23,23 @@ In this section we describe Sarah's spefic case and the factors we had to consid
     * rotation of wrist around the vertical axis to allow for smaller hand movement when selecting which key to play.
 
 But we also had to fix the following degrees of freedom:
-    * 
+    * Wrist height with respect to the piano
+    * Piano/support height with respect to the user. 
 
 * Form factor. We realized the importance of this point at the end of our first design when we started thinking about how Sarah could take it home, and teh current dimensions were too big to fit into the car. The final structure needs to be compact enough to be stored away when not used and easy to mount by the contestent parents.
 * Cost
 
-![image](media/buttom_support.png)
+Our initial idea, as well as some similar products on the market, was to build a support from the buttom that the arm can rest on. Even though this might sound tempting, we quickly started uncovering many of the flows of this design as the complexity of the system keeps increasing as we try to satisfy the requirements stated above. First, the 3d printed parts needed for such a system raise robustness issues. Unfortunately, the polymer materials commonly available cannot be relied on for long-term use knowing that they will have to support the arm weight while also being in motion. Additionally, the number of print iterations needed to find the perfect fit would require too much time, which we don't have during the hackathon weekend. The challenge of this design is to give wrist support and wrist freedom simultanously. 
+<img src="media/buttom_support.png" width="500">
+
 
 ## Final Solution
 
 ![image](media/piano_hackahealth-2025-7977.jpg)
 
+This marionet-style setup idea, once we thought about it, was a simple one to test. All we had to do was to hold the linear guide up manually, attach one of the wrist supports we had available with some strings and was done. To our surprise, the feedback from Sarah was very positive. The easy of adjustability of this system made it possible to find a comfortable configuration where the shoulders are relaxed. Sarah had a height adjustable desk at home which is convinient to set the height of the poiano with respect to her chair, then the strings' length can be set to raise teh wrists to the perfect distance from the keys. The rich and smooth motion provided by the string attachement beats by far any stiff mechanical structure that would have to provide teh same degrees of freedom. It also allowed for slight back-and-front "linear" motion that solved the challenge of playing the black and white keys.
 
-## BOM 
+## BOM & Reconstruction
 
 * [Linear guide](https://www.amazon.com/BestEquip-Bearing-Bearings-Electronic-Equipment/dp/B082D9BHVN/143-7097979-7607200)
 * [Hollow bar](https://www.hornbach.ch/de/p/rohr-m20-alu-3m/7191391/)
